@@ -11,7 +11,9 @@ header {
  }
  
  footer {
-    background-color: #666666
+    background-color: #666666;
+    width: 100%;
+    /* line-height: 100px; */
  }
 
  .container {
@@ -27,6 +29,7 @@ header {
  .main {
      width: 650px;
      float: left;
+     padding: 0cm .2cm 0cm .2cm;
      background-color: #ffffff;
      /* border-style: solid;
      border-color: green; */
@@ -36,7 +39,7 @@ header {
  .sidebar {
      width: 270px;
      float: right;
-     padding: .1cm .1cm .1cm .1cm;
+     padding: 0cm .2cm 0cm .2cm;
      background-color: #ffffff;
      /* border-style: solid;
      border-color: blue;
@@ -71,23 +74,14 @@ header {
     text-align: center;
     width: 250px;
     float: left;
-    height: 50px;
-    /* border-style: solid;
-    border-color: blue;
-    border-width: 1px; */
+    height:100px;
+    line-height: 100%;
  }
 
  .nav { 
     width: 270px;
     height: 100px;
     float: right;
-    padding: .1cm .1cm .1cm .1cm;
-    /* border-style: solid;
-    border-color: blue; */
+    /* padding: .1cm .1cm .1cm .1cm; */
     border-width: 4px;
  }
-
- .content {
-     width: 1000px;
- }
- 
