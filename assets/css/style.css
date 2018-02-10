@@ -21,7 +21,6 @@ header {
      align-self: center;
      align-items: center;
      background-color: #ffffff;
-     /* border-bottom: 2px inset #cccccc; */
      border-width: 4px;
      margin: 0 auto;
  }
@@ -31,8 +30,6 @@ header {
      float: left;
      padding: 0cm .2cm 0cm .2cm;
      background-color: #ffffff;
-     /* border-style: solid;
-     border-color: green; */
      border-width: 4px;
  }
 
@@ -41,9 +38,6 @@ header {
      float: right;
      padding: 0cm .2cm 0cm .2cm;
      background-color: #ffffff;
-     /* border-style: solid;
-     border-color: blue;
-     border-width: 4px; */
  }
 
  hr {
@@ -82,6 +76,29 @@ header {
     width: 270px;
     height: 100px;
     float: right;
-    /* padding: .1cm .1cm .1cm .1cm; */
     border-width: 4px;
  }
+
+ input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #367c79;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 14px 0px;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+}
+
+.message {
+    height: 150px;
+}
