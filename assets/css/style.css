@@ -1,16 +1,13 @@
 body {
-    background-color: rgb(57, 173, 22);
-    background-image: url("assets/images/dark-triangles.png");
+    /* background-color: rgb(57, 173, 22); */
+    background-image: url("../images/skyscraper.png");
 }
 
 header {
     background-color: #ffffff;
-    /* border-bottom: 2px inset #cccccc; */
+    border-bottom: 2px inset #cccccc;
     width: 100%;
-    /* border-style: solid; */
-     /* border-color: yellow;
-     border-width: 4px; */
-     line-height: 100px;
+    line-height: 100px;
  }
  
  footer {
@@ -22,9 +19,9 @@ header {
      align-self: center;
      align-items: center;
      background-color: #ffffff;
-     /* border-style: solid;
-     border-color: red; */
+     /* border-bottom: 2px inset #cccccc; */
      border-width: 4px;
+     margin: 0 auto;
  }
  
  .main {
